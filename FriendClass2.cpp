@@ -22,7 +22,7 @@ class B{
     }
    int product(){
     A valu;
-    return valu.a;
+    return valu.getValue();
    }
 };
 int main(){
