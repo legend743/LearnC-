@@ -7,7 +7,16 @@ class Traingle{
         int d;
         d=c-(a+b);
         cout<<"Third traingle is:";
-        cout<<d;
+        cout<<d<<endl;
+
+    };
+    void areaScaleneTraingle(int s,int a,int b,int c){
+        
+        int area;
+        area=(s*(s-a)*(s-b)*(s-c))^(-1/2);
+        cout<<"area of scalane traingle"<<endl;
+        cout<<area<<endl;
+
     }
 };
 int main(){
@@ -17,6 +26,7 @@ int main(){
     cin>>a>>b;
     Traingle traingle;
     traingle.thirdTraingle(a,b);
+    traingle.areaScaleneTraingle(12,8,3,4);
 
 
 }
