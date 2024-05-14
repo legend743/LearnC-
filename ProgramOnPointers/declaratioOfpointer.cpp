@@ -2,18 +2,25 @@
 using namespace std;
 
 class value{
+    int*pai;
+    
     private:
-    int a;
+    int*a;
     int b;
+    
 public:
-    value(){    
-        a=10;
+    value(){   
+        a=new int; 
+        *a=10;
         b=12;
 
+    };
+    ~value(){
+        delete a;
     }
     public:
     void output(){
-        cout<<a<<endl;
+        cout<<*a<<endl;
         cout<<b<<endl;
     }
     
