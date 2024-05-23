@@ -15,6 +15,6 @@ class virtually: public virtualV{
 
 
 int main(){
-    virtually vrt;
+    virtualV vrt;
     vrt.display();
 }
