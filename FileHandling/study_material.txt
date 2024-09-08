@@ -1,0 +1,1 @@
+cd "d:\All project\C++\LearnC-\FileHandling\" ; if ($?) { g++ ReadingWritingJson.cpp -o ReadingWritingJson } ; if ($?) { .\ReadingWritingJson }

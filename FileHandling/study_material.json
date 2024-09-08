@@ -1,0 +1,1 @@
+cd "d:\All project\C++\LearnC-\FileHandling\" ; if ($?) { g++ ReadingFile1.cpp -o ReadingFile1 } ; if ($?) { .\ReadingFile1 }
