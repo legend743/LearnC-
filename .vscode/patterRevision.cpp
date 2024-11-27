@@ -1,10 +1,14 @@
 #include<iostream>
 int main(){
-    for (int i = 1; i < 5; i++){
-        for(int j=i-1;j<5-2*i;j++){
-            std::cout<<" ";
+
+    int n;
+    std::cout<<"Enter the rows: ";
+    std::cin>>n;
+    for(int i=0;i<n;i++){
+        for(int j=1;j<=n;j++){
+            std::cout<<j;
         }
-        std::cout<<"*"<<std::endl;
+        std::cout<<std::endl;
     }
     
 
