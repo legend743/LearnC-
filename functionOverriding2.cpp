@@ -9,7 +9,7 @@ class overRide{
 class childOverRiide : public overRide{
     public:
      void func(){
-        cout<<"this is overriding function"<<endl;
+        cout<<"this is overrided function"<<endl;
 
     };
     
