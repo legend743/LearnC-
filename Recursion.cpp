@@ -31,6 +31,6 @@ int main(){
     std::cout<<fact(6)<<std::endl;
     std::cout<<sumOfN(4)<<std::endl;
     std::cout<<143/10<<std::endl;
-   std::cout<<"sum of digits are:"<<sumOfDigits(023);
+   std::cout<<"sum of digits are:"<<sumOfDigits(923);
 
 }
